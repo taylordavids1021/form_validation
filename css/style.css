@@ -1,0 +1,76 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+/* base style */
+body {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.562),rgba(255, 192, 203, 0.747),rgba(228, 90, 90, 0.507)), url(../images/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 970px;
+}
+/* heading n p style */
+h1,
+p {
+    font-size: 25px;
+    margin: 2px 0;
+    font-family: 'Merienda', cursive;
+}
+h1 {
+    font-size: 2rem;
+}
+/* button */
+button {
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+}
+button:hover {
+    background-color: rgba(238, 56, 117, 0.842);
+}
+
+button:active {
+    background-color: rgba(0, 255, 255, 0.705);
+}
+/* end of button style */
+
+/* input */
+input,
+select {
+    padding: 10px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 6px solid rgba(236, 16, 137, 0.726);
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+/* link */
+a {
+    text-decoration: none;
+    color: rgb(240, 13, 13);
+    font-size: 1.5rem;
+    margin-right: 4rem;
+  }
+a:hover {
+      color:brown;
+  }
+/* end of style */
+
+/* footer */
+.footer {
+    position: fixed;
+    text-align: center;
+    background-color: rgba(250, 128, 114, 0.61);
+    width: 100%;
+    padding: 10px 15px;
+}
+
+/* container */
+.container {
+    font-family: 'Acme', sans-serif;
+    font-size: 2rem;
+    padding: 5px;
+}
